@@ -5,18 +5,22 @@ This is a repository for all user-generated snippets, made by Haroen Viaene.
 # Languages
 ## HTML
 
-* A [header]() for use in the course WebTech 1 (@Odisee)
+* A [header](temp.sublime-snippet) for use in the course WebTech 1 (@Odisee)
 	* shortcut: `temp`
+	* filetype: `.html`
+* A [header](tempjc.sublime-snippet) for use in the course WebTech 1 (@Odisee)
+	* without javascript and css
+	* shortcut: `tempjc`
 	* filetype: `.html`
 
 ## Markdown
 
-* [CC-BY-NC](), for use in i.e. github repositories
+* [CC-BY-NC](/md/cc.sublime-snippet), for use in i.e. github repositories
 	* shortcut: `cc`
 
 ## ETC
 
-* [Sublime preferences used]()
+* [Sublime preferences used](/ETC/Preferences.sublime-settings)
 
 # License
 
