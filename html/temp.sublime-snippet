@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[<!DOCTYPE html>
+<!--
+	$1
+	@author $2
+ -->
+<html lang="en">
+<head>
+	<title> $3 </title>
+	<meta charset="utf-8" />
+	<script src:"js/scripts.js"></script>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+$0
+</body>
+</html>]]></content>
+	<tabTrigger>temp</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
