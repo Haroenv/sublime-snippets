@@ -8,11 +8,11 @@
 <head>
 	<title> $3 </title>
 	<meta charset="utf-8" />
-	<script src:"js/scripts.js"></script>
 	<link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
 $0
+<script src='js/scripts.js'></script>
 </body>
 </html>]]></content>
 	<tabTrigger>temp</tabTrigger>
