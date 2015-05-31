@@ -6,9 +6,85 @@
  -->
 <html lang="en">
 <head>
-	<title> $3 </title>
+	<title> Title of the Page </title>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/styles.css"/>
+
+	<!-- saying that the browser doesn't need to rescale on mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<!-- status bar in transparent/colour -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="theme-color" content="#7f1734">
+	<!-- homescreen icon -->
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="icon" href="/apple-touch-icon.png">
+	<!-- windows 8 tiles -->
+	<meta name="application-name" content="Site"/>
+	<meta name="msapplication-TileColor" content="#ffffff"/>
+	<meta name="msapplication-square70x70logo" content="tiny.png"/>
+	<meta name="msapplication-square150x150logo" content="square.png"/>
+	<meta name="msapplication-wide310x150logo" content="wide.png"/>
+	<meta name="msapplication-square310x310logo" content="large.png"/>
+
+	<!-- SEO, displaying results -->
+	<meta name="description" content="Here comes your description, this is also used by Google when displaying search results." />
+	<meta name="author" content="Haroen Viaene" />
+
+	<!-- Robots will follow all links on this site, the page is an index -->
+	<meta name="robots" content="index, follow" />
+
+	<!-- linking your CSS -->
+	<link rel="stylesheet" href="style.css" />
+
+	<!-- favicon is best linked in your html too -->
+	<link rel="icon" type="image/png" href="/favicon.png" />
+
+	<!-- OGP -->
+	<meta property="og:url" content="http://link.to/page" />
+	<!-- title and author -->
+	<meta property="og:site_name" content="Name of your site" />
+	<meta property="og:title" content="Author name" />
+	<meta property="article:author" content="Author name"> <!-- might be redundant -->
+	<!-- general OG image -->
+	<link rel="image_src" href="htpp://link.to/thumbnail-image.png" />
+	<meta property="og:image" content="htpp://link.to/thumbnail-image.png" />
+	<meta property="og:image:width" content="200" />
+	<meta property="og:image:height" content="200" />
+	<meta property="og:type" content="website" />
+	<!-- description -->
+	<meta name="og:description" content="The description for facebook etc." />
+
+	<!-- OGP -->
+	<!-- this is used for facebook -->
+	<link rel="canonical" href="http://link.to/site">
+	<meta property="og:url" content="http://link.to/site">
+	<!-- title and author -->
+	<meta property="og:site_name" content="Name of the site">
+	<meta property="og:title" content="large.png">
+	<!-- general OG image -->
+	<link rel="image_src" href="http://link.to/image.png">
+	<meta property="article:author" content="Author Name">
+	<meta property="og:image" content="http://link.to/image.png">
+	<meta property="og:image:width" content="2000">
+	<meta property="og:image:height" content="2000">
+	<meta property="og:type" content="article">
+	<!-- description -->
+	<meta name="og:description" content="This is the description for facebook, g+ ...">
+
+	<!-- twitter card: photo -->
+	<meta name="twitter:card" content="photo"> <!-- also summary etc. -->
+	<!-- method and user -->
+	<meta name="twitter:site" content="@twitterAccount">
+	<meta name="twitter:domain" content="haroen.me">
+	<meta name="twitter:creator" content="@twitterAccount">
+	<meta name="twitter:url" content="http://haroen.me/s/">
+	<!-- title, image... -->
+	<meta name="twitter:title" content="The title of the article">
+	<meta name="twitter:image" content="http://link.to/image.png">
+	<meta name="twitter:image:width" content="2000">
+	<meta name="twitter:image:height" content="2000">
+	<meta name="twitter:description" content="This is the description for twitter">
 </head>
 <body>
 $0
