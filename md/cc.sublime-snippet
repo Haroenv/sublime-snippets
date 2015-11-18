@@ -5,5 +5,5 @@
 ${3:Project} is licensed under a [Creative Commons ${2:Attribution-NonCommercial-ShareAlike} 4.0 International License](http://creativecommons.org/licenses/${1:by-nc-sa}/4.0/). No warranty whatsoever.
 ]]></content>
 	<tabTrigger>mdcc</tabTrigger>
-	<scope>markdown</scope>
+	<scope>markdown,text</scope>
 </snippet>
