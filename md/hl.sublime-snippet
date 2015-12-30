@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-{% higlight $1 %}
+{% highlight $1 %}
 $2
 {% endhighlight %}
 ]]></content>
