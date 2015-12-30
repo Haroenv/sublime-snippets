@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+{% higlight $1 %}
+$2
+{% endhighlight %}
+]]></content>
+  <tabTrigger>hl</tabTrigger>
+  <scope>markdown,text</scope>
+</snippet>
