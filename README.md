@@ -17,6 +17,8 @@ This is a repository for all user-generated snippets, made by Haroen Viaene.
 
 * [CC-BY-NC](/md/cc.sublime-snippet), for use in i.e. github repositories
 	* shortcut: `cc`
+* highlight tag for Jekyll `{% highlight $1 %}$2{% endhighlight %}`
+  * shortcut: `hl`
 
 ## ETC
 
