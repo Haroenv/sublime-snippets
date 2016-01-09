@@ -1,4 +1,10 @@
 {
+	"added_words":
+	[
+		"Viaene",
+		"Lacan",
+		"t"
+	],
 	"auto_complete_triggers":
 	[
 		{
@@ -10,16 +16,16 @@
 			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
 		}
 	],
-	"color_scheme": "Packages/User/SublimeLinter/base16-eighties.dark (SL).tmTheme",
-	"font_face": "Monaco",
-	"font_options":
-	[
-		"no_antialias"
-	],
-	"font_size": 12,
+	"color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
+	"dictionary": "Packages/Dictionaries/Dutch.dic",
+	"font_face": "Menlo",
+	"font_size": 14,
 	"ignored_packages":
 	[
-		"Vintage",
+		"GitHub Flavored Markdown Preview",
+		"jQuery",
+		"JSHint Gutter",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -32,10 +38,11 @@
 	},
 	"open_files_in_new_window": false,
 	"scroll_past_end": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"ensure_newline_at_eof_on_save": true,
 }
